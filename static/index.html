@@ -51,12 +51,17 @@
   </header>
 
   <!-- PWA Install Banner (Shown automatically on Android Chrome) -->
-  <div class="install-banner" id="install-banner" style="display: none;">
+  <div class="install-banner" id="install-banner" style="display: flex;">
     <div class="install-text">
-      <strong>📲 Cài đặt App DeskPulse</strong>
-      <span>Thêm vào màn hình chính Android để mở như file APK</span>
+      <strong>📲 Tải App DeskPulse cho Android</strong>
+      <span>Cài đặt trực tiếp file APK hoặc thêm vào màn hình chính</span>
     </div>
-    <button class="install-btn" id="install-btn">Cài đặt ngay</button>
+    <div style="display: flex; gap: 8px;">
+      <a href="/DeskPulse.apk" download="DeskPulse.apk" class="install-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 4px; background: linear-gradient(135deg, #10b981, #059669);">
+        📥 Tải APK
+      </a>
+      <button class="install-btn" id="install-btn">Cài PWA</button>
+    </div>
   </div>
 
   <!-- Main Tabs Content -->
