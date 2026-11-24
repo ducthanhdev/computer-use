@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DeskPulse</string>
+    <string name="set_pc_ip">Cài đặt địa chỉ máy tính</string>
+    <string name="ip_hint">Ví dụ: 192.168.1.50:8765</string>
+    <string name="connect">Kết nối</string>
+    <string name="cancel">Hủy</string>
+</resources>

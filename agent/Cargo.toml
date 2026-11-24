@@ -1,0 +1,18 @@
+[package]
+name = "deskpulse-agent"
+version = "0.2.0"
+edition = "2021"
+authors = ["Ducthanhdev"]
+description = "High-performance Desktop Daemon for Remote Computer Monitoring & Control"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = { version = "0.7", features = ["ws"] }
+tower = { version = "0.4", features = ["util"] }
+tower-http = { version = "0.5", features = ["cors", "fs", "trace"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sysinfo = "0.30"
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

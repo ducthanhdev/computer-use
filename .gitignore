@@ -1,0 +1,37 @@
+# Rust build artifacts
+target/
+**/target/
+**/*.rs.bk
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+ENV/
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+**/build/
+
+# Android
+.gradle/
+**/local.properties
+**/GeneratedPluginRegistrant.java
+**/app/build/
+*.apk
+*.aab
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store

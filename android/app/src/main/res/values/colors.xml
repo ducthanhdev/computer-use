@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#07090E</color>
+    <color name="status_bar">#07090E</color>
+    <color name="accent_cyan">#06B6D4</color>
+</resources>
